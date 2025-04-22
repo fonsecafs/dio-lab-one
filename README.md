@@ -67,4 +67,15 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
   Com GitHub, é possível versionar o código, acompanhar mudanças, resolver conflitos e trabalhar em equipe de forma eficiente e organizada através dos repositórios e Branches.
   É uma espécie de LinkedIn dos desenvolvedores.
   
-      
+# Criar maquina Virtual
+  Criar uma máquina virtual Windows no Azure:
+   1. **Acesse o portal do Azure** e faça login na sua conta.
+   2. **Crie um novo recurso** clicando em "Criar um recurso" e selecione "Máquina Virtual".
+   3. **Escolha o sistema operacional**: Selecione Windows e a versão desejada.
+   4. **Configure as especificações**: Escolha o tamanho da VM, tipo de disco e outras configurações.
+   5. **Defina as credenciais**: Crie um nome de usuário e senha para acessar a VM.
+   6. **Configuração de rede**: Ajuste regras de firewall e conectividade.
+   7. **Revise e crie**: Confirme as configurações e clique em "Criar".
+   8. **Acesse a VM**: Após a implantação, conecte-se via RDP para começar a usar.
+
+   Caso ainda tenha duvidas, você pode conferir este tutorial oficial do Azure - https://learn.microsoft.com/pt-pt/azure/virtual-machines/windows/quick-create-portal
