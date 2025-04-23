@@ -78,4 +78,37 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
    7. **Revise e crie**: Confirme as configurações e clique em "Criar".
    8. **Acesse a VM**: Após a implantação, conecte-se via RDP para começar a usar.
 
-   Caso ainda tenha duvidas, você pode conferir este tutorial oficial do Azure - https://learn.microsoft.com/pt-pt/azure/virtual-machines/windows/quick-create-portal
+   Caso ainda tenha duvidas, você pode conferir o tutorial oficial do Azure - https://learn.microsoft.com/pt-pt/azure/virtual-machines/windows/quick-create-portal
+
+# Configuração de uma instância de Banco de Dados na plataforma Microsoft Azure
+  Aqui vamos configurar uma instância de Banco de Dados no Microsoft Azure.
+  1. **Acesse o Portal do Azure:**
+     1.1. Vá para portal.azure.com e faça login com suas credenciais.
+
+  2. **Crie um Recurso de Banco de Dados:**
+     2.1. No menu à esquerda, clique em "Criar um recurso".
+     2.2. Na barra de pesquisa, digite o tipo de banco de dados desejado, como "SQL Database", "MySQL" ou "PostgreSQL".
+     2.3. Selecione a opção correspondente e clique em "Criar".
+     
+  3. **Configurações Básicas:**
+     3.1. Escolha a assinatura correta.
+     3.2. Selecione ou crie um grupo de recursos.
+     3.3. Insira um nome único para o banco de dados.
+     3.4. Configure o servidor (crie um novo ou selecione um existente) e defina o local (região).
+
+  4. **Configurações de Escalabilidade e Preço:**
+     4.1. Escolha a camada de serviço (Basic, Standard, Premium, etc.) com base nas suas necessidades de desempenho e custo.
+     4.2. Ajuste o número de DTUs ou vCores para determinar o desempenho.
+     
+  5. **Configurações de Segurança:**
+     5.1 Configure a autenticação (senha ou integração com Active Directory).
+     5.2 Defina as regras de firewall para permitir o acesso ao banco de dados.
+
+  6. **Revisão e Criação:**
+     6.1. Revise todas as configurações na aba "Revisar e criar".
+     6.2. Clique em "Criar" para iniciar o processo de implantação.
+
+  7. **Conexão ao Banco de Dados:**
+     7.1. Após a implantação, vá até "SQL Databases" no menu esquerdo.
+     7.2. Obtenha a cadeia de conexão e use ferramentas como SQL Server Management Studio (SSMS) para acessar o banco de dados.
+
